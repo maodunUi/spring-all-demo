@@ -10,6 +10,7 @@
     <modules>
         <module>hello-spring-boot-starter</module>
         <module>hello-spring-boot-starter-autoconfigure</module>
+        <module>hello-demo</module>
     </modules>
 
     <parent>
@@ -25,4 +26,10 @@
     </properties>
     <packaging>pom</packaging>
 
+
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
 </project>
