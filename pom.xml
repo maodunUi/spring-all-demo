@@ -11,6 +11,7 @@
         <module>hello-spring-boot-starter</module>
         <module>hello-spring-boot-starter-autoconfigure</module>
         <module>hello-demo</module>
+        <module>mvc-demo</module>
     </modules>
 
     <parent>
@@ -29,7 +30,11 @@
 
     <dependencyManagement>
         <dependencies>
-
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.18</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
