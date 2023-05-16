@@ -19,7 +19,7 @@ public class HelloController {
 
     @ResponseBody
     @RequestMapping("/person")
-    public String hello(Person person) {
-        return person.getName();
+    public Person hello(Person person) {
+        return person;
     }
 }

@@ -19,4 +19,6 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         super.addArgumentResolvers(argumentResolvers);
         argumentResolvers.add(new PersonArgumentResolver());
     }
+
+
 }
